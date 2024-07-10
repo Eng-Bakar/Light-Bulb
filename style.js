@@ -4,8 +4,8 @@ let OffButton = document.querySelector("#OffBtn")
 
 OnButton.addEventListener("click", function(){
     light.style.backgroundColor = "yellow"
-    OnButton.style.backgroundColor = "green"
     OffButton.style.backgroundColor = ""
+    OnButton.style.backgroundColor = "green"
 
 })
 OffButton.addEventListener("click", function(){
